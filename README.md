@@ -1,35 +1,49 @@
-# Python Capabilities Demo Project
+# MERN Stack Project
+
+This project showcases my capabilities in learning and implementing the MERN stack (MongoDB, Express, React, Node.js) with a connection to a database. It demonstrates a complete web application with user authentication and CRUD operations.
 
 ## Table of Contents
-- [Introduction](#introduction)
+
+- [Overview](#overview)
 - [Features](#features)
-- [Tech Stack](#tech-stack)
+- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Database](#database)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
-## Introduction
-This project demonstrates my capabilities in Python, showcasing my ability to build and connect a Python application to a MySQL database. The application is designed to perform CRUD (Create, Read, Update, Delete) operations on the database, highlighting my understanding and implementation of database interactions in Python.
+## Overview
+
+This project is a full-stack web application built using the MERN stack. It includes:
+
+- User registration and authentication
+- Database connection with MongoDB
+- RESTful API using Express
+- Frontend developed with React
 
 ## Features
-- Connect to MySQL database
-- Perform CRUD operations
-- User-friendly interface
-- Secure and efficient code
 
-## Tech Stack
-- **Programming Language:** Python
-- **Database:** MySQL
-- **Frameworks and Libraries:** 
-  - `mysql-connector-python`
-  - `flask` (for web interface)
-  - `sqlalchemy` (for ORM)
+- **User Authentication**: Register, login, and manage user sessions.
+- **CRUD Operations**: Create, read, update, and delete data from the database.
+- **Responsive Design**: Mobile-friendly and responsive user interface.
+- **API Integration**: RESTful API endpoints for interaction with the frontend.
+- **Database Connection**: Connected to MongoDB for data storage and retrieval.
+
+## Technologies Used
+
+- **MongoDB**: NoSQL database for storing user and application data.
+- **Express**: Web framework for building the backend API.
+- **React**: Frontend library for building the user interface.
+- **Node.js**: JavaScript runtime for building the backend server.
+- **Mongoose**: ODM (Object Data Modeling) library for MongoDB and Node.js.
+- **JWT**: JSON Web Token for user authentication.
 
 ## Installation
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/yourusername/python-capabilities-demo.git
-   cd python-capabilities-demo
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/mern-stack-project.git
+   cd mern-stack-project
